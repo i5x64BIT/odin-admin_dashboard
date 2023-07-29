@@ -7,7 +7,7 @@ A fun project provided by [The Odin Project](https://theodinproject.com)
 
 #### Icons 
 [svgrepo](https://www.svgrepo.com):
-    * [Sheild Icon](https://www.svgrepo.com/svg/524153/shield-keyhole)
+    * [Sheild Icon](https://www.svgrepo.com/svg/491131/shield-outlined)
     * [Bell Icon](https://www.svgrepo.com/svg/512575/notification-bell-1396)
     * [History Icon](https://www.svgrepo.com/svg/511412/arrow-repeat-238)
     * [Search Icon](https://www.svgrepo.com/svg/532555/search)
