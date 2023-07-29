@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin - Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search">
+                <img src="./assets/icons/search.svg" class="small-icon" alt="search" style="cursor: pointer;">
+                <input type="text" id="search-bar" placeholder="Search">
+            </div>
+            <div class="user">
+                <img src="./assets/icons/notification.svg" class="small-icon" alt="Notifications" style="cursor: pointer;">
+                <img src="https://cdn.pixabay.com/photo/2016/03/31/19/58/avatar-1295430_1280.png" alt="Profile Picture" class="profile-image-small" style="cursor: pointer;">
+                <span class="user-name">Tomer Vainshtein</span>
+            </div>
+            <div class="user-big">
+                <img src="https://cdn.pixabay.com/photo/2016/03/31/19/58/avatar-1295430_1280.png" alt="#" class="profile-image-medium">
+                <span id="caption">Hi there,</span>
+                <span class="user-name">Tomer Vainshtein (@i5x64bit)</span>
+            </div>
+            <div class="project-controls">
+                <button id="new">New</button>
+                <button id="upload">Upload</button>
+                <button id="share">Share</button>
+            </div>
+        </div>
+        <div class="sidebar">
+            <span class="title"><img src="/" alt="#"><h1>Dashboard</h1></span>
+            <div class="controls">
+                <div class="item">
+                    <img src="./assets/icons/home.svg" class="small-icon" alt="">
+                    Home</div>
+                <div class="item">
+                    <img src="./assets/icons/profile.svg" class="small-icon" alt="">
+                    Profile
+                </div>
+                <div class="item">
+                    <img src="./assets/icons/messeges.svg" class="small-icon" alt="">
+                    Messages</div>
+                <div class="item">
+                    <img src="./assets/icons/history.svg" class="small-icon" alt="">
+                    History</div>
+                <div class="item">
+                    <img src="./assets/icons/fileboard.svg" class="small-icon" alt="">
+                    Tasks</div>
+                <div class="item">
+                    <img src="./assets/icons/group.svg" alt="" class="small-icon">
+                    Communities</div>
+            </div>
+            <div class="controls">
+                <div class="item">
+                    <img src="./assets/icons/settings.svg" alt="" class="small-icon">
+                    Settings</div>
+                <div class="item">
+                    <img src="./assets/icons/help.svg" alt="" class="small-icon">
+                    Support</div>
+                <div class="item">
+                    <img src="./assets/icons/privacy.svg" alt="" class="small-icon">
+                    Privacy</div>
+            </div>
+        </div>
+        <div class="content">
+            <h2 class="medium-title" id="projects">Your Projects</h2>
+            <div class="content-projects">
+                <div class="card">
+                    <h3 class="small-title">Calculator App</h3>
+                    <p class="medium-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quas soluta veniam facilis ipsa nam, iure eveniet in cumque possimus repudiandae? Distinctio accusantium totam sint, dignissimos id officiis. Quibusdam, impedit?
+                    </p>
+                </div>
+                <div class="card">
+                    <h3 class="small-title">Odin - Landing Page</h3>
+                    <p class="medium-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, sint? Totam soluta nemo, voluptates ullam quia nobis! Ducimus nam commodi cum doloremque quis suscipit facilis porro, hic, repudiandae, saepe vitae.</p>
+                </div>
+                <div class="card">
+                    <h3 class="small-title">Admin Dashboard</h3>
+                    <p class="medium-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quo illo ad dolorem facilis tempora nostrum? Aperiam veritatis mollitia, nihil facilis soluta laboriosam omnis iste dignissimos necessitatibus eaque suscipit molestias.</p>
+                </div>
+                <div class="card">
+                    <h3 class="small-title">Uchat - Messenger</h3>
+                    <p class="medium-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quo illo ad dolorem facilis tempora nostrum? Aperiam veritatis mollitia, nihil facilis soluta laboriosam omnis iste dignissimos necessitatibus eaque suscipit molestias.</p>
+                </div>
+                <div class="card">
+                    <h3 class="small-title">ScriptHookV</h3>
+                    <p class="medium-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quo illo ad dolorem facilis tempora nostrum? Aperiam veritatis mollitia, nihil facilis soluta laboriosam omnis iste dignissimos necessitatibus eaque suscipit molestias.</p>
+                </div>
+                <div class="card">
+                    <h3 class="small-title">Shoe Store</h3>
+                    <p class="medium-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quo illo ad dolorem facilis tempora nostrum? Aperiam veritatis mollitia, nihil facilis soluta laboriosam omnis iste dignissimos necessitatibus eaque suscipit molestias.</p>
+                </div>
+            </div>
+            <h2 class="medium-title" id="announcements">Announcements</h2>
+            <div class="content-announcements card">
+                <div>
+                    <h3 class="small-title">Site Mantenance</h3>
+                    <p class="medium-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, aliquid fugiat! Eaque dolores aliquid dolorem beatae nostrum. Praesentium commodi non aperiam earum. Quia quisquam magnam nisi aut a porro ipsa!</p>
+                </div>
+                <div>
+                    <h3 class="small-title">Community Share Day</h3>
+                    <p class="medium-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, aliquid fugiat! Eaque dolores aliquid dolorem beatae nostrum. Praesentium commodi non aperiam earum. Quia quisquam magnam nisi aut a porro ipsa!</p>
+                </div>
+                <div>
+                    <h3 class="small-title">Update Privacy Policy</h3>
+                    <p class="medium-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, aliquid fugiat! Eaque dolores aliquid dolorem beatae nostrum. Praesentium commodi non aperiam earum. Quia quisquam magnam nisi aut a porro ipsa!</p>
+                </div>
+            </div>
+            <h2 class="content-title" id="trending">Trending</h2>
+            <div class="content-trending card">
+                <div>
+                    <img src="" alt="#" class="round">
+                    <h3 class="small-title">@tegan</h3>
+                    <p class="medium-text">World Peace Builder</p>
+                </div>
+                <div>
+                    <img src="" alt="#" class="round">
+                    <h3 class="small-title">@morgan</h3>
+                    <p class="medium-text">Super Cool Project</p>
+                </div>
+                <div>
+                    <img src="" alt="#" class="round">
+                    <h3 class="small-title">@kendall</h3>
+                    <p class="medium-text">Life Changing App</p>
+                </div>
+                <div>
+                    <img src="" alt="#" class="round">
+                    <h3 class="small-title">@alex</h3>
+                    <p class="medium-text">No Traffic Marker</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>
