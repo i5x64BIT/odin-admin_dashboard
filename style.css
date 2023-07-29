@@ -17,6 +17,9 @@ html,body, div{
     color: var(--primary-font-color-black);
     font-family: Roboto;
 }
+a{
+    text-decoration: none;
+}
 
 /* Utility Classes*/
 .medium-title{
@@ -87,11 +90,11 @@ html,body, div{
 /* Layout Classes*/
 .container{
     display: grid;
-    grid-template: 1fr 5fr auto / 1fr 4fr;
+    grid-template: 1fr 5fr auto / 1fr 5fr;
     min-height: 100svh;
 }
 .header{
-    background-color: var(--primary-bg-yellow);
+    background-color: var(--primary-font-color-white);
     grid-area: 1 / 2 / 2 / 3;
     display: grid;
     grid-template: auto auto / 1fr auto;
@@ -128,9 +131,10 @@ html,body, div{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    cursor: pointer;
 }
 .sidebar .controls{
-    margin-left: 4rem;
+    margin-left: 1em;
 }
 .sidebar img{
     color: var(--primary-font-color-white);
@@ -144,7 +148,7 @@ html,body, div{
     align-self: center;
     justify-self: center;
     display: grid;
-    background-color: var(--primary-bg-green);
+    background-color: var(--primary-bg-yellow);
 }
 
 .sidebar .title{
@@ -185,9 +189,6 @@ html,body, div{
     align-items: center;
     gap: 1rem;
 }
-.header .btn-primary{
-
-}
 .content{
     align-self: stretch;
     justify-self: stretch;
@@ -206,12 +207,18 @@ html,body, div{
 }
 .content-projects > div{
     border-left: 10px solid var(--markup-bg-yellow);
+    position: relative;
 }
 .content-projects > div:hover{
     cursor: pointer;
     border-left-width: 20px;
     box-shadow: 0 5px 10px  rgba(0, 0, 0, .4);
     transition: 200ms;
+}
+.content-projects > div > div{
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
 }
 
 .content-announcements > div{

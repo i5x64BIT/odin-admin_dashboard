@@ -20,5 +20,6 @@ A fun project provided by [The Odin Project](https://theodinproject.com)
     * [Help Icon](https://www.svgrepo.com/svg/503038/help)
     * [Fork Icon](https://www.svgrepo.com/svg/514127/fork)
     * [Star Icon](https://www.svgrepo.com/svg/533052/star)
+    * [Dashboard Icon](https://www.svgrepo.com/svg/502602/dashboard-1)
 
 All graphics used in this project hold an open source lisence, all documents regarding this topic can be found at the correspondig links above.
