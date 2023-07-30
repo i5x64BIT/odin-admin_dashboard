@@ -131,6 +131,16 @@ a{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: .5rem;
+}
+.sidebar .controls > div{
+    cursor: pointer;
+    display: inline-block;
+    min-width: 8em;
+}
+.sidebar .controls > div:hover{
+    position: relative;
+    left: 20px;
     cursor: pointer;
 }
 .sidebar .controls{
