@@ -90,7 +90,7 @@ a{
 /* Layout Classes*/
 .container{
     display: grid;
-    grid-template: 1fr 5fr auto / 1fr 5fr;
+    grid-template: 1fr 5fr auto / minmax(18em, 1fr) 5fr;
     min-height: 100svh;
 }
 .header{
@@ -153,14 +153,6 @@ a{
     font-size: calc(var(--default-font-size) + .3rem);
     gap: 1rem;
 }
-
-.content{
-    align-self: center;
-    justify-self: center;
-    display: grid;
-    background-color: var(--primary-bg-yellow);
-}
-
 .sidebar .title{
     display: flex;
     justify-content: flex-start;
@@ -200,10 +192,12 @@ a{
     gap: 1rem;
 }
 .content{
+    display: grid;
+    background-color: var(--primary-bg-yellow);
     align-self: stretch;
     justify-self: stretch;
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: auto auto auto auto;
     box-shadow: inset 0px 10px 15px rgba(0, 0, 0, .1155) ;
     padding: 1rem 1.5rem;
@@ -230,8 +224,6 @@ a{
     bottom: 20px;
     right: 25px;
 }
-.content-announcements{
-}
 .content-announcements > div{
     overflow: hidden;
     display: -webkit-box;
@@ -248,12 +240,19 @@ a{
 .content-trending {
     display: flex;
     flex-flow: column nowrap;
-    gap: .2em;
+    gap: 1em;
 }
 .content-trending > div{
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto auto;
+    max-width: fit-content;
+    gap:.4rem .8rem;
+    align-items: center;
+}
+.content-trending > div > img{
+    max-width: 3em;
+    width: auto;
+    justify-self: center;
 }
 .content-trending > div p,
 .content-trending > div h3{
