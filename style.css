@@ -169,17 +169,21 @@ a{
     width: 80%;
 }
 .header .user{
-    justify-self: flex-end;
+    justify-self: end;
+    align-self: start;
     display: grid;
     justify-items: end;
+    align-items: center;
     grid-template-columns: auto auto auto;
     gap: calc(1.5rem + .2vw);
 }
 .header .user-big{
     justify-self: start;
+    align-self: center;
     display: grid;
-    grid-template: 1fr 1fr / auto auto; 
+    grid-template: 1fr 1fr / auto auto;
     column-gap: .8rem;
+    align-items: center;
 }
 .header .user-big > img{
     grid-row: 1/3;
