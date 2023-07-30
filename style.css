@@ -220,15 +220,19 @@ a{
     bottom: 20px;
     right: 25px;
 }
-
-.content-announcements > div{
-    padding: .5em;
-    max-height: 100px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.content-announcements{
 }
-.content-announcements > div:not(:last-child){
-    border-bottom: 1px solid rgba(0, 0, 0, .155);
+.content-announcements > div{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    white-space: normal;
+    margin-bottom: 1em;
+}
+.content-announcements > div:not(:first-child){
+    border-top: 1px solid rgba(0, 0, 0, .155);
+    padding-top: 1em;
     background-clip: padding-box; 
 }
 .content-trending {
